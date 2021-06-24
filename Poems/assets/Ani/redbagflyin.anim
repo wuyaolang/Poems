@@ -1,0 +1,98 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "redbagflyin",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.9166666666666666,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "paths": {
+      "hongbao": {
+        "props": {
+          "scale": [
+            {
+              "frame": 0,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 0,
+                "y": 1
+              },
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 0.3333333333333333,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 0.9629629629629629,
+                "y": 1.1
+              },
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 0.4666666666666667,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 1.1,
+                "y": 0.9
+              },
+              "curve": [
+                0.4,
+                0.4,
+                0.6,
+                0.6
+              ]
+            },
+            {
+              "frame": 0.6166666666666667,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 0.95,
+                "y": 1.05
+              }
+            },
+            {
+              "frame": 0.7666666666666667,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 1.05,
+                "y": 0.95
+              }
+            },
+            {
+              "frame": 0.9166666666666666,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 1,
+                "y": 1
+              }
+            }
+          ],
+          "y": [
+            {
+              "frame": 0,
+              "value": -715.168,
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 0.3333333333333333,
+              "value": -266.191,
+              "curve": [
+                0.25,
+                0.46,
+                0.2697399527186762,
+                1.03274231678487
+              ]
+            },
+            {
+              "frame": 0.5,
+              "value": -325.231
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

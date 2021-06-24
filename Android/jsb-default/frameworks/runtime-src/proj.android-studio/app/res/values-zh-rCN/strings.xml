@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">方块消除-三消传奇</string>
+	<string name="privacy_policy">隐私政策</string>
+	<string name="terms_conditions">用户协议</string>
+    <string name="no_network">网络异常</string>
+</resources>

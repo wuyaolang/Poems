@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/shape_white_10"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:gravity="center"
+        android:text="用户协议及隐私条款"
+        android:textColor="#333333"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="268dp"
+        android:layout_height="240dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:scrollbars="none"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="1"
+            android:textColor="@color/colorFont"
+            android:textSize="16sp"
+            android:id="@+id/content"
+            android:lineSpacingExtra="1dp"
+            />
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/tv_desc"
+        android:layout_width="268dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:text="请充分阅读并理解《用户服务协议》和《隐私
+政策》"
+        android:textColor="#ff444444"
+        android:textSize="13sp"
+        android:textStyle="bold" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="15dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:id="@+id/tv_agree"
+            android:layout_width="130dp"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text="同意"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:background="@drawable/shape_blue_6dp"
+            />
+
+        <TextView
+            android:id="@+id/tv_unagree"
+            android:layout_width="130dp"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text="不同意"
+            android:textColor="#cccccc"
+            android:textSize="16sp"
+            android:layout_marginTop="10dp"
+            />
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

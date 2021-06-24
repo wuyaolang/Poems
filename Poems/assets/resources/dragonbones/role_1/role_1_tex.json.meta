@@ -1,0 +1,7 @@
+{
+  "ver": "1.0.0",
+  "uuid": "bf2ee4f8-2866-4de5-82bb-ad4b260574be",
+  "atlasJson": "{\"name\":\"role_1\",\"SubTexture\":[{\"name\":\"右臂\",\"x\":209,\"height\":135,\"y\":376,\"width\":63},{\"name\":\"身体\",\"x\":1,\"height\":193,\"y\":1,\"width\":150},{\"name\":\"腰带\",\"x\":340,\"height\":66,\"y\":376,\"width\":65},{\"name\":\"手\",\"x\":407,\"height\":90,\"y\":376,\"width\":40},{\"name\":\"头绳\",\"x\":274,\"height\":73,\"y\":376,\"width\":64},{\"name\":\"头\",\"x\":1,\"height\":178,\"y\":196,\"width\":140},{\"name\":\"表情1\",\"x\":1,\"height\":130,\"y\":376,\"width\":102},{\"name\":\"表情1-1\",\"x\":105,\"height\":130,\"y\":376,\"width\":102}],\"height\":512,\"imagePath\":\"role_1_tex.png\",\"width\":512}",
+  "texture": "5313d18c-5804-47d1-8094-2587dddf8a2a",
+  "subMetas": {}
+}

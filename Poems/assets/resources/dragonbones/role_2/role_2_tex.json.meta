@@ -1,0 +1,7 @@
+{
+  "ver": "1.0.0",
+  "uuid": "66d9a590-68ed-464f-9bc1-31bb74cf60ca",
+  "atlasJson": "{\"name\":\"role_2\",\"SubTexture\":[{\"name\":\"长发\",\"x\":1,\"height\":205,\"y\":188,\"width\":116},{\"name\":\"身体\",\"x\":1,\"height\":185,\"y\":1,\"width\":143},{\"name\":\"头\",\"x\":119,\"height\":147,\"y\":188,\"width\":136},{\"name\":\"expression\",\"x\":1,\"height\":72,\"y\":395,\"width\":76},{\"name\":\"expression_1\",\"x\":79,\"height\":72,\"y\":395,\"width\":67},{\"name\":\"刘海\",\"x\":148,\"height\":61,\"y\":337,\"width\":51},{\"name\":\"手臂\",\"x\":146,\"height\":151,\"y\":1,\"width\":126}],\"height\":512,\"imagePath\":\"role_2_tex.png\",\"width\":512}",
+  "texture": "93ae7b79-0ccd-4a59-a972-0c673df7fb8d",
+  "subMetas": {}
+}

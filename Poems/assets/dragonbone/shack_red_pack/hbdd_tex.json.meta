@@ -1,0 +1,7 @@
+{
+  "ver": "1.0.0",
+  "uuid": "0f1da0c4-918d-4172-b05c-a960fec685fc",
+  "atlasJson": "{\"SubTexture\":[{\"width\":80,\"y\":1,\"height\":84,\"name\":\"红包\",\"x\":1}],\"width\":128,\"height\":128,\"name\":\"hbdd\",\"imagePath\":\"hbdd_tex.png\"}",
+  "texture": "0adb0462-a062-4ed7-a305-5756db3383c2",
+  "subMetas": {}
+}

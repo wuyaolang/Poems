@@ -1,0 +1,7 @@
+{
+  "ver": "1.0.0",
+  "uuid": "0e36347d-4c32-47b4-ab31-7ea7cb229df3",
+  "atlasJson": "{\"width\":512,\"imagePath\":\"dragon_cry_tex.png\",\"SubTexture\":[{\"width\":118,\"y\":135,\"height\":86,\"name\":\"财神-哭/右臂\",\"x\":128},{\"width\":134,\"y\":1,\"height\":132,\"name\":\"财神-哭/身体\",\"x\":128},{\"width\":68,\"y\":194,\"height\":41,\"name\":\"财神-哭/翅膀\",\"x\":248},{\"width\":125,\"y\":1,\"height\":148,\"name\":\"财神-哭/头\",\"x\":1},{\"width\":64,\"y\":135,\"height\":57,\"name\":\"财神-哭/嘴巴\",\"x\":248},{\"frameWidth\":20,\"y\":151,\"frameHeight\":13,\"width\":18,\"frameX\":-1,\"height\":11,\"name\":\"财神-哭/眼泪\",\"frameY\":-1,\"x\":103},{\"width\":100,\"y\":151,\"height\":92,\"name\":\"财神-哭/左臂\",\"x\":1}],\"height\":256,\"name\":\"dragon_cry\"}",
+  "texture": "fbcd483c-15db-4ebe-90a9-5c18493ad2d2",
+  "subMetas": {}
+}

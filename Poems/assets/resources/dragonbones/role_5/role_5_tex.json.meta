@@ -1,0 +1,7 @@
+{
+  "ver": "1.0.0",
+  "uuid": "9de06d1c-e71b-407e-9c4e-e8db7c5bb23b",
+  "atlasJson": "{\"name\":\"role_5\",\"SubTexture\":[{\"name\":\"身体\",\"x\":1,\"height\":187,\"y\":1,\"width\":166},{\"name\":\"尾\",\"x\":169,\"height\":74,\"y\":172,\"width\":65},{\"name\":\"头\",\"x\":169,\"height\":169,\"y\":1,\"width\":145},{\"name\":\"expression\",\"x\":316,\"height\":114,\"y\":1,\"width\":87},{\"name\":\"expression_1\",\"x\":316,\"height\":114,\"y\":117,\"width\":87},{\"name\":\"胳膊\",\"x\":405,\"height\":99,\"y\":1,\"width\":86}],\"height\":256,\"imagePath\":\"role_5_tex.png\",\"width\":512}",
+  "texture": "d595a608-efd1-4760-ad16-d74f01791c21",
+  "subMetas": {}
+}

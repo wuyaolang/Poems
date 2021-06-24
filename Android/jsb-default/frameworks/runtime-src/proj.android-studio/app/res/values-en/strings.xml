@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Tile Crush-Triple Match Saga</string>
+	<string name="privacy_policy">Privacy Policy</string>
+	<string name="terms_conditions">Terms Conditions</string>
+    <string name="no_network">" NetWork Error"</string>
+</resources>

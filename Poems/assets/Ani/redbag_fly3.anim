@@ -1,0 +1,53 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "redbag_fly3",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.9166666666666666,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 2,
+  "curveData": {
+    "props": {
+      "position": [
+        {
+          "frame": 0,
+          "value": [
+            215.416,
+            -232.658,
+            0
+          ],
+          "curve": [
+            0.6086811352253757,
+            0,
+            0.7963272120200333,
+            1.0008347245409015
+          ]
+        },
+        {
+          "frame": 0.9166666666666666,
+          "value": [
+            331.495,
+            -66.881,
+            0
+          ]
+        }
+      ],
+      "opacity": [
+        {
+          "frame": 0,
+          "value": 0
+        },
+        {
+          "frame": 0.5,
+          "value": 255
+        },
+        {
+          "frame": 0.9166666666666666,
+          "value": 0
+        }
+      ]
+    }
+  },
+  "events": []
+}

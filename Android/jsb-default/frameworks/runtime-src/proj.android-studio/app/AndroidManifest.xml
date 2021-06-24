@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.tilecraft.matchgame"
+    android:installLocation="auto">
+
+    <uses-feature android:glEsVersion="0x00020000" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="com.android.vending.BILLING" />
+
+    <!--    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />-->
+
+<!--    <supports-screens-->
+<!--        android:largeScreens="false"-->
+<!--        android:normalScreens="false"-->
+<!--        android:smallScreens="false"-->
+<!--        android:xlargeScreens="true" />-->
+
+    <application
+        android:name="org.cocos2dx.javascript.MyApplication"
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:usesCleartextTraffic="true"
+        tools:ignore="LockedOrientationActivity">
+        <!-- Tell Cocos2dxActivity the name of our .so -->
+        <meta-data
+            android:name="android.app.lib_name"
+            android:value="cocos2djs" />
+
+        <!-- Branch init -->
+        <meta-data
+            android:name="io.branch.sdk.BranchKey"
+            android:value="key_live_opPZDJ26T51EdfT4Oid79nhaFxpnUrFO" />
+        <meta-data
+            android:name="io.branch.sdk.BranchKey.test"
+            android:value="key_test_abK3tJWWV5ZAcaJ4Jhm25dimCydjOCyY" />
+        <!-- Set to true to use Branch_Test_Key (useful when simulating installs and/or switching between debug and production flavors) -->
+        <meta-data
+            android:name="io.branch.sdk.TestMode"
+            android:value="false" />
+
+        <activity
+            android:name="org.cocos2dx.javascript.AppActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:hardwareAccelerated="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppActivityWithBackground">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <!-- Branch URI Scheme -->
+            <intent-filter>
+                <data android:scheme="tilecrush" />
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+            </intent-filter>
+
+            <!-- Branch App Links (optional) -->
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="tile-crush.app.link"
+                    android:scheme="https" />
+                <!-- example-alternate domain is required for App Links when the Journeys/Web SDK and Deepviews are used inside your website.  -->
+                <data
+                    android:host="tile-crush-alternate.app.link"
+                    android:scheme="https" />
+            </intent-filter>
+
+        </activity>
+
+        <activity
+            android:name="org.cocos2dx.javascript.ui.FeedbackActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoTitle.FullScreen" />
+        <activity
+            android:name="org.cocos2dx.javascript.ui.MyWebViewActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoTitle.FullScreen" />
+        <activity
+            android:name="org.cocos2dx.javascript.ui.SplashActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoTitle.FullScreen">
+
+        </activity>
+
+        <!-- Facebook -->
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.facebook.CustomTabActivity"
+            android:exported="true">
+            <intent-filter><action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="@string/fb_login_protocol_scheme" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <!-- ironSource -->
+        <activity
+            android:name="com.ironsource.sdk.controller.ControllerActivity"
+            android:configChanges="orientation|screenSize"
+            android:hardwareAccelerated="true" />
+        <activity
+            android:name="com.ironsource.sdk.controller.InterstitialActivity"
+            android:configChanges="orientation|screenSize"
+            android:hardwareAccelerated="true"
+            android:theme="@android:style/Theme.Translucent" />
+        <activity
+            android:name="com.ironsource.sdk.controller.OpenUrlActivity"
+            android:configChanges="orientation|screenSize"
+            android:hardwareAccelerated="true"
+            android:theme="@android:style/Theme.Translucent" />
+
+        <!-- Google AdMob -->
+        <activity
+            android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:theme="@android:style/Theme.Translucent" />
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="@string/google_admob_app_id" />
+
+        <!-- 渠道 -->
+        <meta-data
+            android:name="UMENG_CHANNEL"
+            android:value="${CHANNEL_VALUE}" />
+        <!--公共服务的URL-->
+        <meta-data
+            android:name="THEONTHE_BASE_URL"
+            android:value="${THEONTHE_BASE_URL}" />
+        <!-- 产品id -->
+        <meta-data
+            android:name="THEOTHE_PRODUCT_ID"
+            android:value="${THEOTHE_PRODUCT_ID}" />
+        <!-- 马甲id -->
+        <meta-data
+            android:name="THEOTHE_VEST_ID"
+            android:value="${THEOTHE_VEST_ID}" />
+        <!-- 桌面图标 -->
+        <meta-data
+            android:name="icon"
+            android:value="${icon}" />
+        <!-- 公钥 -->
+        <meta-data
+            android:name="THEOTHE_PLATFROM_PUBLICKEY"
+            android:value="${THEOTHE_PLATFROM_PUBLICKEY}" />
+        <!-- app盐 -->
+        <meta-data
+            android:name="THEOTHE_APP_SECRETSALT"
+            android:value="${THEOTHE_APP_SECRETSALT}" />
+
+        <!-- 用户刷系统了，或者用户把手机root后系统弄坏了，还有可能就是厂商定制的手机系统本身就存在问题 -->
+        <meta-data
+            android:name="android.webkit.WebView.EnableSafeBrowsing"
+            android:value="true" />
+
+        <meta-data
+            android:name="design_width_in_dp"
+            android:value="360" />
+        <meta-data
+            android:name="design_height_in_dp"
+            android:value="640" />
+
+    </application>
+
+</manifest>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 在 Audience Network Android SDK 中，我们使用 127.0.0.1 (localhost) 作为缓存代理，
+    以缓存 SDK 中的媒体文件。自 Android P 开始，系统会默认屏蔽明文流量（未加密的 HTTP），
+    这不仅会影响 SDK 的媒体缓存功能，也会影响用户体验和广告收入。
+    为减轻其影响，您可以在 127.0.0.1 地址（即设备自己的本机地址）添加明文流量白名单。 -->
+
+<!-- https://developers.facebook.com/docs/audience-network/android-network-security-config/?translation -->
+<network-security-config>
+    <base-config cleartextTrafficPermitted="true" />
+
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">127.0.0.1</domain>
+    </domain-config>
+
+    <!-- For internal use only. -->
+    <domain-config>
+        <domain includeSubdomains="true">facebook.com</domain>
+        <trust-anchors>
+            <certificates src="system"/>
+            <certificates src="user"/>
+        </trust-anchors>
+    </domain-config>
+
+</network-security-config>

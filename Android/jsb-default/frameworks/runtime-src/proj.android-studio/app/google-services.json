@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "675671126169",
+    "firebase_url": "https://tile-crush-b671d.firebaseio.com",
+    "project_id": "tile-crush-b671d",
+    "storage_bucket": "tile-crush-b671d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:675671126169:android:73aea6c47ad08dc9094808",
+        "android_client_info": {
+          "package_name": "com.tilecraft.matchgame"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "675671126169-qgb7km0h6tb22j8p7gond1v236hc3jkb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHx26j-kxJ20dGy1LYco7N82Md63WzJb8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "675671126169-qgb7km0h6tb22j8p7gond1v236hc3jkb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

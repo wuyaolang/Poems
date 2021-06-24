@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tile Crush-Triple Match Saga</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="terms_conditions">Terms Conditions</string>
+    <string name="no_video" translatable="false">No Video</string>
+    <string name="ad_attribution" translatable="false">Ad</string>
+    <string name="no_network" translatable="false"> NetWork Error</string>
+    <!--  Facebook  -->
+    <string name="facebook_app_id" translatable="false">279108113384311</string>
+    <string name="fb_login_protocol_scheme" translatable="false">fb279108113384311</string>
+    <!--  Google AdMob  -->
+    <string name="google_admob_app_id" translatable="false">ca-app-pub-9041523067491992~8806940683</string>
+
+    <string name="placeholder" translatable="false">Placeholder</string>
+
+    <!--  说明权限理由对话框  -->
+    <string name="dialog_permission_positive_button" translatable="false">明白</string>
+    <string name="dialog_permission_message_request_rationale" translatable="false">
+        储存空间\n
+        【重要】App需要授予存储空间的权限，用来存储您的游戏数据防止丢失，拒绝将无法获取更好的游戏体验。
+    </string>
+    <string name="dialog_permission_message_app_details_settings" translatable="false">
+        为了给您带来更好的游戏体验，App需要授予存储空间的权限，建议您去应用信息设置中授予此权限。
+    </string>
+</resources>

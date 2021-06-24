@@ -1,0 +1,49 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "rotatepingp",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 1.6666666666666667,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "props": {
+      "angle": [
+        {
+          "frame": 0,
+          "value": 0
+        },
+        {
+          "frame": 0.08333333333333333,
+          "value": -15
+        },
+        {
+          "frame": 0.25,
+          "value": 15
+        },
+        {
+          "frame": 0.4166666666666667,
+          "value": -15
+        },
+        {
+          "frame": 0.5833333333333334,
+          "value": 10
+        },
+        {
+          "frame": 0.75,
+          "value": -8
+        },
+        {
+          "frame": 0.8333333333333334,
+          "value": 0
+        },
+        {
+          "frame": 1.6666666666666667,
+          "value": 0
+        }
+      ]
+    }
+  },
+  "events": []
+}

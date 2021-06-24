@@ -1,0 +1,121 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "PopRedPack",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.45,
+  "sample": 60,
+  "speed": 0.5,
+  "wrapMode": 1,
+  "curveData": {
+    "props": {
+      "anchorY": [
+        {
+          "frame": 0,
+          "value": 0
+        }
+      ],
+      "position": [
+        {
+          "frame": 0,
+          "value": [
+            0,
+            -670,
+            0
+          ]
+        },
+        {
+          "frame": 0.11666666666666667,
+          "value": [
+            0,
+            -360,
+            0
+          ]
+        }
+      ],
+      "scaleX": [
+        {
+          "frame": 0,
+          "value": 0.2
+        },
+        {
+          "frame": 0.11666666666666667,
+          "value": 1
+        },
+        {
+          "frame": 0.2,
+          "value": 1
+        },
+        {
+          "frame": 0.2833333333333333,
+          "value": 1
+        },
+        {
+          "frame": 0.36666666666666664,
+          "value": 1
+        },
+        {
+          "frame": 0.45,
+          "value": 1
+        }
+      ],
+      "scaleY": [
+        {
+          "frame": 0,
+          "value": 1
+        },
+        {
+          "frame": 0.11666666666666667,
+          "value": 1
+        },
+        {
+          "frame": 0.2,
+          "value": 0.8
+        },
+        {
+          "frame": 0.2833333333333333,
+          "value": 1
+        },
+        {
+          "frame": 0.36666666666666664,
+          "value": 0.9
+        },
+        {
+          "frame": 0.45,
+          "value": 1
+        }
+      ]
+    },
+    "paths": {
+      "btn_open": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                0,
+                185.016,
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "icon_cancel": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                0,
+                -97.41399999999999,
+                0
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

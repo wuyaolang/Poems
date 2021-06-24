@@ -1,0 +1,7 @@
+{
+  "ver": "1.0.0",
+  "uuid": "a96cfce3-1c3a-4556-aa4d-c87cafd7175e",
+  "atlasJson": "{\"name\":\"role_me\",\"SubTexture\":[{\"name\":\"身体\",\"x\":1,\"height\":200,\"y\":1,\"width\":145},{\"name\":\"穗子\",\"x\":148,\"height\":32,\"y\":183,\"width\":17},{\"name\":\"刀\",\"x\":283,\"height\":182,\"y\":1,\"width\":73},{\"name\":\"飘带2\",\"x\":358,\"height\":81,\"y\":173,\"width\":32},{\"name\":\"飘带1\",\"x\":437,\"height\":100,\"y\":1,\"width\":66},{\"name\":\"头\",\"x\":148,\"height\":180,\"y\":1,\"width\":133},{\"name\":\"expression_1\",\"x\":358,\"height\":94,\"y\":1,\"width\":77},{\"name\":\"expression\",\"x\":358,\"height\":74,\"y\":97,\"width\":62}],\"height\":256,\"imagePath\":\"role_me_tex.png\",\"width\":512}",
+  "texture": "cd2767cf-a9f1-4893-9481-356bbbe95117",
+  "subMetas": {}
+}

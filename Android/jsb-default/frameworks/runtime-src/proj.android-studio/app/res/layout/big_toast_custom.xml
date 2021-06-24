@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:text="金币不足!"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:layout_marginTop="14dp"
+        android:id="@+id/toast_gold_num"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/bg_shape_black_10"
+        android:gravity="center"
+        android:paddingLeft="45dp"
+        android:paddingRight="45dp"
+        />
+</LinearLayout>
